@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label id="aLabel">Accuracy: 0/0 100%</label>
-    <button id="resetButton">Reset Questions</button><br><br>
+    <label id="qAmount"></label>
+    <button id="resetButton">Reset Questions</button><br>
+    <label id="aLabel">Accuracy: </label><br>
+    <label id="bScore">Best Score: </label><br><br>
     <label id="iTypeSelectorLabel">Input Mode: </label>
     <select id="iTypeSelector">
         <option value="Skin">Skin</option>
@@ -23,9 +25,10 @@
     <div id="inputLine">
         <label id="inputLabel">Enter the name of this skin: </label>
         <input id="guessBox">
+        <button id="devShowSkin">Show Answers</button>
     </div>
     <br>
-    <h2 id="guessCheck"></h2>
+    <h2 id="guessCheck">PENDING</h2>
     <div id="cNGroup">
         <label id="correctName"></label>
     </div>
